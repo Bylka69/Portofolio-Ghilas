@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 20px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card.basic {
+  background-color: blanchedalmond;
+  border-color: #ffd54f;
+}
+
+.card.interactive {
+  background-color: blanchedalmond;
+  border-color: #66bb6a;
+}
+
+.card.ecommerce {
+  background-color: blanchedalmond;
+  border-color: #42a5f5;
+}
+
+.card h2 {
+  color: #333;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.card p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
+/* Effet de dégradé pour les sections */
+.apropos {
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+}
+
+.contact {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #fff;
+}
+
+/* Animation au défilement */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

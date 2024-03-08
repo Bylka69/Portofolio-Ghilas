@@ -1,0 +1,69 @@
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0 auto;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+        }
+        h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: blanchedalmond;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(103, 148, 216);
+}
+
+.Bobo {
+    text-align: left;
+    margin: 20px;
+}
+.Bobo button {
+    padding: 10px 20px; /* Pour donner de l'espace à l'intérieur du bouton */
+    font-size: 16px; /* Taille de la police */
+    border: 2px solid #007bff; /* Bordure solide de couleur bleue */
+    background-color: #007bff; /* Fond de couleur bleue */
+    color: #ffffff; /* Texte en blanc */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Pas de soulignement sur le texte */
+    display: inline-block; /* Pour que le bouton se comporte comme un élément en ligne */
+}
+
+/* Style pour les liens à l'intérieur des boutons */
+.Bobo button a {
+    color: #ffffff; /* Texte en blanc */
+    text-decoration: none; /* Pas de soulignement sur le texte */
+}
+
+/* Changement de style au survol du bouton */
+.Bobo button:hover {
+    background-color: #0056b3; /* Fond de couleur plus foncée au survol */
+    border-color: #0056b3; /* Bordure de couleur plus foncée au survol */
+}

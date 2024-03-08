@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Services de Création de Pages Web</title>
+  <link rel="stylesheet" href="stale.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Nos Services de Création de Site Web</h1>
+    
+    <div class="card basic">
+      <h2><i class="fas fa-file-alt"></i> Site Web Simple</h2>
+      <p>Prix : 200€</p>
+      <a href="formulaire.html" class="btn">Contacter</a>
+    </div>
+
+    <div class="card interactive">
+      <h2><i class="fas fa-desktop"></i> Site Web interactif</h2>
+      <p>Prix : 500€</p>
+      <a href="formulaire.html" class="btn">Contacter</a>
+    </div>
+
+    <div class="card ecommerce">
+      <h2><i class="fas fa-shopping-cart"></i> Site Web E-Commerce</h2>
+      <p>Prix : 1000€</p>
+      <a href="formulaire.html" class="btn">Contacter</a>
+    </div>
+  </div>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script>
+    // Ajout de l'animation pour chaque carte
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach((card, index) => {
+      card.style.animation = `fadeInUp 2.5s ease ${index * 0.2}s forwards`;
+    });
+  </script>
+</body>
+</html>
